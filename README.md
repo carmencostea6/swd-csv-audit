@@ -16,3 +16,7 @@ The analysis endpoint is `POST /api/csv/analyze` and accepts a multipart `file` 
 ```sh
 mvn test
 ```
+
+## CI/CD
+
+Here is the CI/CD raport: [CICD.md](CICD.md).

@@ -18,8 +18,7 @@ jobs:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
 
     steps:
-
-        - name: Checkout code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up QEMU
